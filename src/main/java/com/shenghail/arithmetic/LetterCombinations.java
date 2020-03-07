@@ -53,7 +53,6 @@ public class LetterCombinations {
                     param[j] = param[j+1];
                 }
                 i--;
-                System.out.println(Arrays.toString(param));
             }
         }
         int[] result = Arrays.copyOfRange(param, 0, param.length-count);

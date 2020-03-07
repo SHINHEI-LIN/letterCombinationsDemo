@@ -48,7 +48,6 @@ public class LetterCombinationsTest {
                         "bei bfg bfh bfi cdg cdh cdi ceg ceh cei cfg cfh cfi";
         LetterCombinations letterCombinations = new LetterCombinations();
         String result = letterCombinations.letterCombinations(input);
-        System.out.println(result);
         Assert.assertEquals(result, output);
     }
 
